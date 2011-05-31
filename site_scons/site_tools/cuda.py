@@ -142,7 +142,8 @@ def generate(env):
                     cudaSDKPath + '/common/inc', 
                     cudaToolkitPath + '/include']
         env.Append(CPPPATH=CPPPATH)
-        LIBPATH=[cudaSDKPath + '/lib', 
+        LIBPATH=['/usr/lib/nvidia-current',
+                    cudaSDKPath + '/lib', 
                     cudaSDKPath + '/C/lib', 
                     cudaSDKPath + '/shared/lib', 
                     cudaSDKPath + '/common/lib' + cudaSDKSubLibDir, 
