@@ -1,0 +1,3 @@
+[submodule "mapped_allocator"]
+	path = mapped_allocator
+	url = https://github.com/cfobel/cuda__mapped_allocator.git
